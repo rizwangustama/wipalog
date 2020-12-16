@@ -1,0 +1,412 @@
+@font-face {
+    font-style: 'Futura';
+    src: url('./unicode.futurab.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* Shapen page 1 */
+.shape1 {
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.shape2 {
+    position: absolute;
+    bottom: 0;
+}
+
+.bulat {
+    position: absolute;
+    left: -100px;
+    top: auto;
+    z-index: 0;
+}
+
+.e-bulat {
+    position: absolute;
+}
+
+
+
+.container {
+    margin: auto;
+    width: 80%;
+    height: 100%;
+}
+
+#pertama {
+    background: #45D354;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+#pertama .judul-mobile {
+    display: none;
+}
+
+#pertama .gambar {
+    background: url(../asset/Background.png);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pertama .konten {
+    margin: auto;
+    display: flex;
+    height: 100%;
+}
+.konten .judul {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.konten .judul h1, .judul p {
+    font-family: 'Futura';
+    text-align: center;
+    font-size: 74px;
+}
+
+.judul p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.konten .judul h1 {
+    font-size: 74px;
+}
+
+.konten .judul p {
+    font-size: 26px;
+}
+
+#kedua {
+    background-color: #45D354;
+    width: 100%;
+    height: 615px;
+}
+#kedua .dua {
+    display: flex;
+}
+
+#kedua .main {
+    margin: auto;
+    align-items: center;
+}
+
+#kedua .judul h1 {
+    font-family: 'Futura';
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#kedua .konten {
+    display: flex;
+}
+
+#kedua .konten .row:nth-last-child(2) {
+    margin: 0 30px;
+}
+
+#kedua .konten .row {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+#kedua .konten .row a {
+    text-decoration: none;
+    color:black;
+}
+
+#kedua .konten .row .d-dua {
+    margin: 25px 0 auto auto;
+}
+#kedua .konten .row .isi h2 {
+    font-size: 14px;
+}
+
+#kedua .konten .row .isi p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+#kedua .konten .row .tiga {
+    margin: 40px 0 auto  auto;
+}
+
+
+#ketiga {
+    background-color: #45D354;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+#ketiga .k-main {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.k-judul h1 {
+    padding-top: 0px;
+    font-size: 30px;
+    font-family: 'Futura';
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#ketiga .k-konten{
+    /* display: flex; */
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#ketiga .k-konten .button {
+    display: flex;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 140px;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: #282e08;
+    border: 2px solid transparent;
+    text-decoration: none;
+    color:white;
+}
+
+#ketiga .k-konten .button:hover {
+    background: transparent;
+    border: 2px solid white;
+}
+#ketiga .k-konten .row {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+#ketiga .k-konten .row:nth-last-child(2) {
+    margin: 0 25px;
+}
+
+#ketiga .k-konten .row .k-isi h3 {
+    margin: 25px 0px 10px 0;
+}
+
+#ketiga .k-konten .row .k-isi p {
+    font-size: 15px;
+}
+
+/* swip */
+.sw-mobile {
+    display: none;
+}
+/* end */
+
+#empat{
+    background: #45D354;
+    background-image: url(../asset/Picture7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px 0;
+    background-position: center;
+}
+
+
+
+#empat .e-main h1 {
+    margin: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Futura';
+}
+
+#empat .e-main .e-konten {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+}
+
+
+#empat .e-main .e-konten .row {
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+#empat .e-main .e-konten .row img {
+    height: 170px;
+    overflow: hidden;
+}
+
+#empat .e-main .e-konten .row:nth-last-child(2) {
+    margin: 0 60px 0 60px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+/* Jqueri */
+#panel, #namajudul, #panel1, #namajudul1, #panel2, #namajudul2 {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc2a;
+    border: solid 0px #c3c3c3;
+  }
+
+  #namajudul, #namajudul1, #namajudul2 h3 {
+      margin: 0px auto 0px auto;
+  }
+  
+  #panel, #panel1, #panel2 {
+    padding: 30px 5px 30px 5px;
+    background-color:rgba(248, 248, 248, 0.637);
+    display: none;
+  }
+
+  #panel ul li, #panel1 ul li, #panel2 ul li {
+    list-style-type: none;
+  }
+
+  #panel table, #panel1 table, #panel2 table {
+      margin: 0 auto;
+      width: 90%;
+  }
+
+  #panel table tr, #panel1 table tr, #panel2 table tr {
+      text-align: left;
+  }
+
+  #panel table th, #panel1 table th, #panel2 table th {
+      text-align: center;
+  }
+
+  #panel table tr{
+      border-bottom: 1px solid black;
+  }
+
+
+/* ------------------- */
+
+#empat .e-main .e-konten .row h3, 
+#empat .e-main .e-konten .row p{
+    text-align: center;
+}
+
+#empat .e-main .e-konten .row p {
+    margin-bottom: 25px;
+}
+#empat .e-main .e-konten .row h3 {
+    margin-top: 25px;
+}
+
+#lima .l-main {
+    display: flex;
+}
+
+.kiri {
+    margin: auto;
+    display: flex;
+    width: 50%;
+    background: #45D354;
+    justify-content: center;
+}
+
+
+
+.kiri .img {
+    display: flex;
+    margin: 100px 0;
+    width: 100%;
+    justify-content: center;
+}
+.kiri img {
+    width: 400px;
+}
+
+.kanan {
+    width: 50%;
+    background: #404B0C;
+}
+
+.kanan h1 {
+    margin-bottom: 70px;
+    font-size: 30px;
+    font-family: 'Futura';
+    color: white;
+}
+.l-konten {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.l-isi {
+    margin: 0 0 0 100px;
+}
+.l-isi .colum {
+    margin: 40px 0;
+}
+
+.l-isi .colum h3,
+.l-isi .colum p {
+    color: white;
+}
+
+footer {
+    background: #282e08;
+    padding: 40px 0;
+}
+
+footer p {
+    padding: 20px auto;
+    text-align: center;
+    color: white;
+}
+
+/* whatsaap fik */
+.wafixed {
+    position: fixed;
+    box-shadow:  3px 5px 15px 0px rgba(0,0,0,0.75);
+    right: 30px;
+    bottom: 30px;
+    z-index: 999;
+    border-radius: 500px;
+}
+
+.wafixed img {
+    width: 50px;
+}
+/* end whatsapp */
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 80%;
+    }
+
+    #ketiga .k-konten{
+        flex-wrap: wrap;
+    }
+        
+    #empat .e-main .e-konten .row {
+        flex-wrap: wrap;
+    }
+}

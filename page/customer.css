@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container {
+    width: 70%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style-type: none;
+}
+
+ul li h3 {
+    margin: 0;
+}
+
+#customer {
+    background: #45D354;
+}
+.isi .row {
+    display: flex;
+    justify-content: center;
+}
+
+.konten {
+    padding: 100px 0;
+}
+
+.konten .isi h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 0 0 50px 0;
+}
+
+.row .img {
+    margin: 0;
+}
+.row .img img {
+    width: 90.7px;
+}
+
+.row .r-isi {
+    margin: 0 0 0 20px;
+}
+
+.r-isi ul li h3 {
+    margin-bottom: 10px;
+}
+
+.i-colum {
+    display: flex;
+}
+
+.i-colum a {
+    text-decoration: none;
+    color: black;
+}
+
+.i-colum .colum img {
+    justify-content: center;
+    width: 105px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.colum {
+    margin: 50px auto;
+}
+
+.colum .c-isi h1, .colum .c-isi p{
+    text-align: center;
+}
+
+.colum .c-isi h1 {
+    font-size: 30px;
+    margin: 5px;
+}
+
+
+footer {
+    background: #282e08;
+    padding: 40px 0;
+}
+
+footer p {
+    padding: 20px auto;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 791px) {
+   .i-colum {
+       display: block;
+       flex-wrap: wrap;
+   } 
+
+   .i-colum .fax {
+       display: none;
+   }
+}

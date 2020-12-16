@@ -1,0 +1,157 @@
+@media screen and (max-width: 791px) {
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+    body {
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .container {
+        width: 90%;
+    }
+    
+
+    #pertama .gambar {
+        background: none;
+    }
+
+    #pertama .gambar .judul h1{
+       font-size: 40px;
+    }
+
+    #pertama .gambar .judul p {
+        font-size: 20px;
+    }
+
+    #pertama .gambar .judul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .shape1 {
+        display: none;
+    }
+
+    .shape2 {
+        display: none;
+    }
+
+
+    #kedua .dua {
+        width: 90%;
+    }
+
+    #kedua .judul h1 {
+        text-align: center;
+    }
+
+    #kedua .main {
+        width: 100%;
+        margin: auto;
+    }
+
+    #kedua .konten {
+        flex-wrap: wrap-reverse;
+        width: 100%;
+    }
+
+
+    #ketiga {
+        margin: auto;
+        width: 100%;
+        padding: 350px 0 0 0;
+    }
+
+    #ketiga .k-konten {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #ketiga .k-konten .row {
+       padding-bottom: 50px;
+    }
+
+    /* swip */
+
+    .swiper-container {
+        display: none;
+    }
+
+    .sw-mobile {
+        display: flex;
+        width: 100%;
+    }
+
+    .sw-mobile img {
+        width: 200px;
+    }
+
+    /* end */
+
+    #empat {
+        width: 100%;
+    }
+
+    #empat .e-main {
+        flex-wrap: wrap;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    #empat .e-main h1 {
+        width: 100%;
+    }
+
+    #empat .e-main .e-konten {
+        display: block;
+        width: 100%;
+    }
+
+    #empat .e-main .e-konten .row {
+        margin: 0 0 40px 0;
+    }
+
+    
+#empat .e-main .e-konten .row:nth-last-child(2) {
+    margin: 0 0 40px 0;
+}
+
+    #empat .e-main .e-konten .row img {
+        margin: auto;
+        display: flex;
+    }
+
+    #empat .e-main .e-konten .row .e-isi {
+        margin: auto;
+        width: 271.55px;
+    }
+    #empat .e-main .e-konten .row .e-isi1 {
+        margin: auto;
+        width: 290.42px;
+    }
+
+
+    #lima .l-main {
+        display: block;
+    }
+
+    #lima .l-main .bulat {
+        display: none;
+    }
+
+    #lima .l-main .kiri {
+        width: 100%;
+        display: none;
+    }
+
+    #lima .l-main .kiri img{
+        display: none;
+    }
+
+    #lima .l-main .kanan {
+        width: 100%;
+    }
+
+    #lima .l-main .kanan .l-isi {
+        margin-top: 70px;
+        margin-bottom: 20px;
+    }
+}
+
